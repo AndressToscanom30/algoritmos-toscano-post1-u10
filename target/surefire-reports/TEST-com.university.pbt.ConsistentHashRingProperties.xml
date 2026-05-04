@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.university.pbt.ConsistentHashRingProperties" time="1.376" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\u9-post1\target\test-classes;C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\u9-post1\target\classes;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\tosca\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\tosca\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik\1.8.3\jqwik-1.8.3.jar;C:\Users\tosca\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-api\1.8.3\jqwik-api-1.8.3.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-web\1.8.3\jqwik-web-1.8.3.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-time\1.8.3\jqwik-time-1.8.3.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-engine\1.8.3\jqwik-engine-1.8.3.jar;C:\Users\tosca\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\tosca\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\tosca\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\tosca\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\tosca\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.boot.library.path" value="C:\Users\tosca\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin"/>
+    <property name="sun.java.command" value="C:\Users\tosca\AppData\Local\Temp\surefire13654104182146133100\surefirebooter-20260504115217164_3.jar C:\Users\tosca\AppData\Local\Temp\surefire13654104182146133100 2026-05-04T11-52-17_040-jvmRun1 surefire-20260504115217164_1tmp surefire_0-20260504115217164_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\u9-post1\target\test-classes;C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\u9-post1\target\classes;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\tosca\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\tosca\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\tosca\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik\1.8.3\jqwik-1.8.3.jar;C:\Users\tosca\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-api\1.8.3\jqwik-api-1.8.3.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-web\1.8.3\jqwik-web-1.8.3.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-time\1.8.3\jqwik-time-1.8.3.jar;C:\Users\tosca\.m2\repository\net\jqwik\jqwik-engine\1.8.3\jqwik-engine-1.8.3.jar;C:\Users\tosca\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\tosca\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\tosca\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\tosca\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\tosca\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tosca"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Users\tosca\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\u9-post1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\tosca\AppData\Local\Temp\surefire13654104182146133100\surefirebooter-20260504115217164_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+10-LTS"/>
+    <property name="user.name" value="tosca"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.11+10"/>
+    <property name="localRepository" value="C:\Users\tosca\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\tosca\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\tosca\Documentos\UDES\Semestre 7\Algoritmos\code\u9-post1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\tosca\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\tosca\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\tosca\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\tosca\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\tosca\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\tosca\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\Users\tosca\AppData\Local\Programs\Microsoft VS Code;C:\Users\tosca\Documentos\Programacion\WINDOWS.X64_213000_db_home\bin;C:\Program Files\Java\jdk-24\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Docker\Docker\resources\bin;C:\Maven\bin;C:\xampp\mysql\bin;;C:\ProgramData\chocolatey\bin;C:\Program Files\PostgreSQL\17\bin\postgres.exe;C:\Program Files\Java\jdk1.8.0_202;C:\Users\tosca\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tosca\.dotnet\tools;C:\Users\tosca\AppData\Local\Programs\Python\Python313;C:\Users\tosca\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\tosca\AppData\Local\Programs\Windsurf\bin;C:\Users\tosca\.local\bin;C:\Users\tosca\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.11+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="addingNodeOnlyMigratesSubset" classname="com.university.pbt.ConsistentHashRingProperties" time="1.047">
+    <failure message="[Al agregar 1 nodo, al menos el 30% de claves deben permanecer. Nodos antes: [AAA], nodo nuevo: &amp;#0;] &#10;Expecting actual:&#10;  0L&#10;to be greater than:&#10;  6L&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+[Al agregar 1 nodo, al menos el 30% de claves deben permanecer. Nodos antes: [AAA], nodo nuevo: &amp#0;] 
+Expecting actual:
+  0L
+to be greater than:
+  6L
+
+	at com.university.pbt.ConsistentHashRingProperties.addingNodeOnlyMigratesSubset(ConsistentHashRingProperties.java:115)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at net.jqwik.engine.execution.CheckedPropertyFactory.lambda$createRawFunction$1(CheckedPropertyFactory.java:84)
+	at net.jqwik.engine.execution.CheckedPropertyFactory.lambda$createRawFunction$2(CheckedPropertyFactory.java:91)
+	at net.jqwik.engine.properties.CheckedFunction.execute(CheckedFunction.java:17)
+	at net.jqwik.api.lifecycle.AroundTryHook.lambda$static$0(AroundTryHook.java:57)
+	at net.jqwik.engine.execution.lifecycle.HookSupport.lambda$wrap$2(HookSupport.java:48)
+	at net.jqwik.engine.hooks.lifecycle.TryLifecycleMethodsHook.aroundTry(TryLifecycleMethodsHook.java:56)
+	at net.jqwik.engine.execution.lifecycle.HookSupport.lambda$wrap$3(HookSupport.java:53)
+	at net.jqwik.engine.execution.lifecycle.HookSupport.lambda$wrap$2(HookSupport.java:48)
+	at net.jqwik.engine.hooks.lifecycle.BeforeTryMembersHook.aroundTry(BeforeTryMembersHook.java:69)
+	at net.jqwik.engine.execution.lifecycle.HookSupport.lambda$wrap$3(HookSupport.java:53)
+	at net.jqwik.engine.execution.CheckedPropertyFactory.lambda$createTryExecutor$0(CheckedPropertyFactory.java:60)
+	at net.jqwik.engine.execution.lifecycle.AroundTryLifecycle.execute(AroundTryLifecycle.java:23)
+	at net.jqwik.engine.properties.GenericProperty.lambda$createFalsifier$1(GenericProperty.java:229)
+	at net.jqwik.engine.properties.shrinking.PropertyShrinker.lambda$shrink$0(PropertyShrinker.java:55)
+	at net.jqwik.engine.properties.shrinking.PropertyShrinker.lambda$shrinkAsLongAsSampleImproves$6(PropertyShrinker.java:122)
+	at net.jqwik.engine.properties.shrinking.AbstractSampleShrinker.lambda$falsify$5(AbstractSampleShrinker.java:91)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1228)
+	at net.jqwik.engine.properties.shrinking.AbstractSampleShrinker.falsify(AbstractSampleShrinker.java:91)
+	at net.jqwik.engine.properties.shrinking.AbstractSampleShrinker.lambda$shrink$2(AbstractSampleShrinker.java:53)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:300)
+	at net.jqwik.engine.support.StreamConcatenation$ConcatSpliterator.tryAdvance(StreamConcatenation.java:302)
+	at net.jqwik.engine.support.StreamConcatenation$ConcatSpliterator.tryAdvance(StreamConcatenation.java:302)
+	at net.jqwik.engine.support.StreamConcatenation$ConcatSpliterator.tryAdvance(StreamConcatenation.java:302)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findAny(ReferencePipeline.java:652)
+	at net.jqwik.engine.properties.shrinking.AbstractSampleShrinker.shrink(AbstractSampleShrinker.java:63)
+	at net.jqwik.engine.properties.shrinking.OneAfterTheOtherParameterShrinker.shrinkSingleParameter(OneAfterTheOtherParameterShrinker.java:43)
+	at net.jqwik.engine.properties.shrinking.OneAfterTheOtherParameterShrinker.shrink(OneAfterTheOtherParameterShrinker.java:25)
+	at net.jqwik.engine.properties.shrinking.ShrinkingAlgorithm.shrinkOneParameterAfterTheOther(ShrinkingAlgorithm.java:52)
+	at net.jqwik.engine.properties.shrinking.ShrinkingAlgorithm.shrink(ShrinkingAlgorithm.java:32)
+	at net.jqwik.engine.properties.shrinking.PropertyShrinker.shrinkAsLongAsSampleImproves(PropertyShrinker.java:135)
+	at net.jqwik.engine.properties.shrinking.PropertyShrinker.lambda$shrink$3(PropertyShrinker.java:87)
+	at net.jqwik.engine.execution.lifecycle.CurrentTestDescriptor.runWithDescriptor(CurrentTestDescriptor.java:17)
+	at net.jqwik.engine.properties.shrinking.PropertyShrinker.lambda$withTimeout$4(PropertyShrinker.java:103)
+	at net.jqwik.engine.execution.lifecycle.CurrentDomainContext.runWithContext(CurrentDomainContext.java:28)
+	at net.jqwik.engine.properties.shrinking.PropertyShrinker.lambda$withTimeout$5(PropertyShrinker.java:101)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+]]></failure>
+    <system-out><![CDATA[timestamp = 2026-05-04T11:52:19.014224500, ConsistentHashRingProperties:addingNodeOnlyMigratesSubset = 
+  java.lang.AssertionError:
+    [Al agregar 1 nodo, al menos el 30% de claves deben permanecer. Nodos antes: [AAA], nodo nuevo: &amp#0;] 
+    Expecting actual:
+      0L
+    to be greater than:
+      6L
+
+                              |-----------------------jqwik-----------------------
+tries = 22                    | # of calls to property
+checks = 22                   | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -1489766050176321014   | random seed to reproduce generated values
+
+Shrunk Sample (180 steps)
+-------------------------
+  arg0: ["AAA"]
+  arg1: "�"
+  arg2:
+    [
+      "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", "�", 
+      "�"
+    ]
+
+Original Sample
+---------------
+  arg0: ["gpOjmtVm"]
+  arg1: "彙"
+  arg2:
+    [
+      "ೆ蓜࿖ん܋ﾃ", "⡝뗙ࡼ쎴눫麶ꧧꪃ짴", "쟆蕄쑄挶ᒠ㍮혒犃蠥", "夘뗃䍕┈㱋䂭྾✴ᮣ戭첿쥗⌌ﾒ㬷", "凮聈跖嗳ᝊ⚨륓", "좄擟⏱휘팅挨긊䵂릷檃锚㿯ퟁ⺈霴ㅶ퍸օ苌ཬ", 
+      "췏ຣ힬既꧋ᷪ뵧棉쓲ϒ줖Ù䱚눘", "凃ᖼ삼馶渦㦇鍼㏧눔힞䉦", "劺ࣩ勶ꪾᭆ⮚놸㳣⫇簽쐖⻎", "眗组呟⪋ަ絻㰿뵜෼ﯯ礡鋉쒰㪞칡碣㺧", "饔⥒⎣埒䘒੷䫪䓨₊ﻗ徘傣", 
+      "蝅숢퍵⏰ቖ狷抶", "煻랾龱舰᾵慻", "猴倅㔞أ⤓隢攧⩟", "穳愾⻫퇃꺞衉蔄癌錀꧊ꥌ售", " ", "ꐓ뿾⤟磓Ἣ⥏藶፳棼柞ꡋ໾门ﵷ芃見簄", "륐箙쪑黏镫༼曡꽬ൈ", 
+      "Ⓠ㧧燏ᶕꮝ䦾왪㰄⭭㚉텈﷋", "ዯ韖秴쌭岷ꈱ㧎뉴熡滕䠔쯂廪៖", "蛡藉﵃懯垴ᖤⰬᘜ", "촸܍⾎ஔ䐭칿ﷇ⿵ゆ䈙ྩ줙", "섿＾퉬䘰", "ᜎ⇬ἷ㓠挙記틧귔锱耱ꊻ", "�", 
+      "䣠甾ក쑧ꄣ쪑僦죌屵晕귪ݮ꯺据衙﹧༥ﴦ", "행ᛟ黙㣌́讪೭䱆谵쒵㓜﨩", "衹쓮覬ׯ笉謿싗륦⎛୑ҵ", "过鉃偵擱褆暱냩澙霿ߪ㔐⁹꿁닞톱", "✵昼䐩촱⏺ᖌ艔ఝ딅㻙欸콣㱍䵸"
+    ]
+
+  Original Error
+  --------------
+  java.lang.AssertionError:
+    [Al agregar 1 nodo, al menos el 30% de claves deben permanecer. Nodos antes: [gpOjmtVm], nodo nuevo: 彙] 
+    Expecting actual:
+      7L
+    to be greater than:
+      9L
+
+
+]]></system-out>
+    <system-err><![CDATA[may 04, 2026 11:52:18 A. M. net.jqwik.engine.execution.AfterFailureParametersGenerator logAfterFailureHandling
+INFORMACIÓN: After Failure Handling: SAMPLE_FIRST, Previous Generation: <GenerationInfo(-1489766050176321014, 5, [size=301])>
+]]></system-err>
+  </testcase>
+  <testcase name="getNodeReturnsKnownNode" classname="com.university.pbt.ConsistentHashRingProperties" time="0.211">
+    <system-out><![CDATA[timestamp = 2026-05-04T11:52:19.237213100, ConsistentHashRingProperties:getNodeReturnsKnownNode = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 8          | # of all combined edge cases
+edge-cases#tried = 8          | # of edge cases tried in current run
+seed = -6626897955324875478   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="getNodeIsDeterministic" classname="com.university.pbt.ConsistentHashRingProperties" time="0.091">
+    <system-out><![CDATA[timestamp = 2026-05-04T11:52:19.329119300, ConsistentHashRingProperties:getNodeIsDeterministic = 
+                              |-----------------------jqwik-----------------------
+tries = 1000                  | # of calls to property
+checks = 1000                 | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 8          | # of all combined edge cases
+edge-cases#tried = 8          | # of edge cases tried in current run
+seed = -2650910698699594390   | random seed to reproduce generated values
+
+
+]]></system-out>
+  </testcase>
+</testsuite>
